@@ -12,8 +12,7 @@ class TicTacToe
   "ml", "mm", "mr",
   "bl", "bm", "br"]
 
-  def initialize(name)
-    @name = name
+  def initialize
     @player_won = false
     @computer_won = false
     @tied_game = false
@@ -124,7 +123,7 @@ class TicTacToe
   end
 end
 
-new_game = TicTacToe.new("Steven")
+new_game = TicTacToe.new
 
 puts "Please enter your choice, board is: \n tl, tm, tr \n ml, mm, mr, \n bl, bm, br"
 
